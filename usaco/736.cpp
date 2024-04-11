@@ -111,8 +111,7 @@ signed main() {
     int N, M;
     read(N, M);
     vs spotty(N), plain(N);
-    F0R(n, N) read(spotty[n]);
-    F0R(n, N) read(plain[n]);
+    readc(spotty, plain);
     int places = 0;
     F0R(m, M) {
         unordered_set<char> chars;
